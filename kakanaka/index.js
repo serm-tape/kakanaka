@@ -4,6 +4,8 @@ import {Route, BrowserRouter} from 'react-router-dom'
 
 import {Home, Game, Who} from './app/page'
 import Header from './app/component/Header'
+import Footer from './app/component/Footer'
+
 const Root = () => (
     <BrowserRouter>
         <div style={{textAlign:'center', display:'flex', height:'100%', flexFlow:'column'}}>
@@ -11,6 +13,7 @@ const Root = () => (
             <Route exact path='/' component={Home} />
             <Route exact path='/game' component={Game} />
             <Route exact path='/who' component={Who} />
+            <Route path='/' component={Footer} />
         </div>
     </BrowserRouter>
 )
