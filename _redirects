@@ -1,0 +1,11 @@
+# for spa
+
+# sciprt
+/build/main.js      /build/main.js              200
+
+# public
+/public/*           /kakanaka/public/:splat     200
+
+# any
+/*                  /kakanaka/index.html        200
+
